@@ -240,9 +240,6 @@ var dataproject = {
                         'Charges per 1,000 residents of other races'
                     ],
                 },
-                tooltip: {
-                    enabled: false
-                },
                 yAxis: {
                     min: 0,
                     max: 300,
