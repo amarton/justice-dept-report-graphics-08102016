@@ -23,7 +23,7 @@ a {
 .container {
   margin: 0 auto;
   width:90%;
-  max-width:1000px;
+  max-width:900px;
   margin-top: 100px; /* Margin = height of topnav */
 }
 
@@ -64,13 +64,17 @@ footer {
 
 
   .row {
+       padding-top:10px;
+      padding-bottom:10px;
+  }
+
+
+
+  .graphic {
       border-bottom:1px solid #cdcdcd;
-      margin-top:25px;
-      margin-bottom:25px;
       padding-top:25px;
       padding-bottom:25px;
   }
-
 
 
   H2 {
@@ -94,6 +98,15 @@ H4 {
       font-style: italic;
       font-weight:100;
       color:#679ACA;
+  }
+
+
+H5 {
+      font-family: "Montserrat", sans-serif;
+      font-size:1.25em;
+      margin-top:-10px;
+      color:#000;
+      font-weight: 700;
   }
 
 p {
