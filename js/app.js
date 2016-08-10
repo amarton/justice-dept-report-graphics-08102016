@@ -98,6 +98,49 @@ var dataproject = {
                 }]
             });
         });
+        $(function chart4() {
+            $('#chart4').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: ''
+                },
+                subtitle: {
+                    text: 'Source: Department of Justice'
+                },
+                xAxis: {
+                    categories: [
+                        'False statement',
+                        'Failure to obey',
+                        'Hindering',
+                        'Resisting',
+                        'Tresspassing',
+                        'Disorderly conduct'
+                    ],
+                },
+                tooltip: {
+                    enabled: false
+                },
+                yAxis: {
+                    min: 0,
+                    max: 14,
+                    tickInterval: 2,
+                    title: {
+                        text: 'Percent'
+                    }
+                },
+                series: [{
+                    name: 'Charges per 1,000 African-American residents',
+                    data: [3, 8.5, 2.5, 7.5, 7.8, 13.8]
+                },
+                {
+                    name: 'Charges per 1,000 Non-African American residents',
+                    data: [0.8, 2.4, 0.8, 1.9, 1.8, 5]
+
+                }]
+            });
+        });
 $(document).ready(function(){
 	dataproject.init();
 	console.log("connected");
