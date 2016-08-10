@@ -19,8 +19,42 @@ var dataproject = {
 		});
 	}
 }
-        $(function chart() {
-            $('#chart').highcharts({
+        $(function chart1() {
+            $('#chart1').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: ''
+                },
+                subtitle: {
+                    text: 'Source: Department of Justice'
+                },
+                xAxis: {
+                    categories: [
+                        'Stops per 1,000 African-American residents',
+                        'Stops per 1,000 Caucasian residents'
+                    ],
+                },
+                tooltip: {
+                    enabled: false
+                },
+                yAxis: {
+                    min: 0,
+                    max: 600,
+                    tickInterval: 100,
+                    title: {
+                        text: 'Percent'
+                    }
+                },
+                series: [{
+                    name: 'Stops per 1,000 residents',
+                    data: [530, 280]
+                }]
+            });
+        });
+        $(function chart2() {
+            $('#chart2').highcharts({
                 chart: {
                     type: 'column'
                 },
