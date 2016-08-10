@@ -115,6 +115,9 @@ var dataproject = {
                         'Vehicle stops'
                     ],
                 },
+                tooltip: {
+                    valueSuffix: '%'
+                },
                 yAxis: {
                     min: 0,
                     max: 10,
@@ -250,7 +253,7 @@ var dataproject = {
                 },
                 series: [{
                     name: 'Charges per 1,000 residents',
-                    data: [252, 51]
+                    data: [254, 52]
                 }]
             });
         });
