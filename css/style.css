@@ -1,0 +1,168 @@
+
+/* Template / Container styles */
+
+
+html {
+  /* Position and min-height for sticky footer */
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 calc(4em + 50px) 0; /* Bottom margin = footer height + topnav height */
+  font-size: 14px; /* Sets the size to be used for ems */
+}
+
+p,a {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  color: #daa520;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width:90%;
+  max-width:1000px;
+  margin-top: 100px; /* Margin = height of topnav */
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  padding: 1em;
+  background-color: #3d3d3d;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+#leaderboard {
+  width: 728px;
+  height: 90px;
+  background-color: #222222;
+  margin: 10px auto;
+  text-align: center; }
+  @media (max-width: 730px) {
+    #leaderboard {
+      display: none; } }
+
+.dateline {
+
+  font-style: italic;
+  font-size: 1em;
+  color: #DAA520;
+}
+
+
+/* Project Specific styles */
+
+
+
+  .row {
+      border-bottom:1px solid #cdcdcd;
+      margin-top:25px;
+      margin-bottom:25px;
+      padding-top:25px;
+      padding-bottom:25px;
+  }
+
+
+
+  H2 {
+          font-family: "Lato", sans-serif;
+          font-size:2.5em;
+          font-weight: bold;
+       }
+
+
+  H3 {
+          font-family: "Montserrat", sans-serif;
+          font-size:1.5em;
+          text-transform:uppercase;
+      }
+
+
+H4 {
+      font-family: "Montserrat", sans-serif;
+      font-size:1em;
+      margin-top:-10px;
+      font-style: italic;
+      font-weight:100;
+      color:#679ACA;
+  }
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size:1.25em;
+  line-height: 160%;
+}
+
+
+.box {
+  width:15px;
+  height:15px;
+  float:left;
+  margin-right:5px;
+
+}
+
+.grey {background:#888}
+
+.blue {background:#679ACA;}
+
+.key-inside {width:100px;float:left;}
+
+.key {height:25px;width:300px;}
+
+.month-rankings {
+text-align: left;
+}
+
+.month-ranking {
+text-align:center;
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: #888;
+color: white;
+font-family: "Montserrat", sans-serif;
+box-sizing: border-box;
+padding: 10px 0;
+margin: 0 15px;
+}
+.month-ranking.highlighted {
+background-color: #679aca;
+}
+@media (max-width: 700px) {
+.month-ranking {
+margin: 0 5px;
+}
+}
+@media (max-width: 600px) {
+.month-ranking {
+display: block;
+height: auto;
+width: auto;
+margin: 3px 0;
+}
+}
+
+.month-label {
+font-size: 16px;
+}
+
+.month-num {
+font-size: 54px;
+}
+@media (max-width: 600px) {
+.month-num {
+font-size: 36px;
+}
+}
+
+
