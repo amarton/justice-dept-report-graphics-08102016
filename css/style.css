@@ -20,6 +20,8 @@ a {
   text-decoration: none;
 }
 
+.chatter {font-size: 1.15em;color:#999;}
+
 .container {
   margin: 0 auto;
   width:90%;
