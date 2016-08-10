@@ -44,7 +44,7 @@ var dataproject = {
                     max: 600,
                     tickInterval: 100,
                     title: {
-                        text: 'Percent'
+                        text: ''
                     }
                 },
                 series: [{
@@ -220,6 +220,79 @@ var dataproject = {
                     name: 'Arrests of people of other races',
                     data: [18, 18, 3, 3, 3, 7]
 
+                }]
+            });
+        });
+        $(function chart6() {
+            $('#chart6').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: ''
+                },
+                subtitle: {
+                    text: 'Source: Department of Justice'
+                },
+                xAxis: {
+                    categories: [
+                        'Charges per 1,000 African-American residents',
+                        'Charges per 1,000 residents of other races'
+                    ],
+                },
+                tooltip: {
+                    enabled: false
+                },
+                yAxis: {
+                    min: 0,
+                    max: 300,
+                    tickInterval: 50,
+                    title: {
+                        text: ''
+                    }
+                },
+                series: [{
+                    name: 'Charges per 1,000 residents',
+                    data: [252, 51]
+                }]
+            });
+        });
+        $(function chart7() {
+            $('#chart7').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: ''
+                },
+                subtitle: {
+                    text: 'Source: Department of Justice'
+                },
+                xAxis: {
+                    categories: [
+                        'Baltimore',
+                        'U.S. Average',
+                        'Atlanta',
+                        'Cleveland',
+                        'Detroit',
+                        'Memphis',
+                        'Milwaukee'
+                    ],
+                },
+                tooltip: {
+                    enabled: false
+                },
+                yAxis: {
+                    min: 0,
+                    max: 120,
+                    tickInterval: 20,
+                    title: {
+                        text: ''
+                    }
+                },
+                series: [{
+                    name: 'Arrest per 1,000  African-American residents',
+                    data: [115, 45, 61, 37, 13, 25, 45]
                 }]
             });
         });
