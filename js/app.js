@@ -19,6 +19,51 @@ var dataproject = {
 		});
 	}
 }
+        $(function chart() {
+            $('#chart').highcharts({
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: ''
+                },
+                subtitle: {
+                    text: 'Source: Department of Justice'
+                },
+                xAxis: {
+                    categories: [
+                        'Western',
+                        'Eastern',
+                        'Southwest',
+                        'Northwest',
+                        'Northeast',
+                        'Central',
+                        'Southern',
+                        'Northern',
+                        'Southeast'
+                    ],
+                },
+                tooltip: {
+                    enabled: false
+                },
+                yAxis: {
+                    min: 0,
+                    max: 100,
+                    title: {
+                        text: 'Percent'
+                    }
+                },
+                series: [{
+                    name: 'Percent African-American stops',
+                    data: [96, 93, 86, 96, 90, 83, 61, 83, 67]
+                },
+                {
+                    name: 'Percent African-American population',
+                    data: [96, 90, 78, 75, 64, 57, 42, 41, 23]
+
+                }]
+            });
+        });
 $(document).ready(function(){
 	dataproject.init();
 	console.log("connected");
