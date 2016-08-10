@@ -288,7 +288,7 @@ var dataproject = {
                     }
                 },
                 series: [{
-                    name: 'Arrest per 1,000  African-American residents',
+                    name: 'Arrests per 1,000  African-American residents',
                     data: [115, 45, 61, 37, 13, 25, 45]
                 }]
             });
