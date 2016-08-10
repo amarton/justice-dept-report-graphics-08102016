@@ -115,9 +115,6 @@ var dataproject = {
                         'Vehicle stops'
                     ],
                 },
-                tooltip: {
-                    enabled: false
-                },
                 yAxis: {
                     min: 0,
                     max: 10,
@@ -128,11 +125,11 @@ var dataproject = {
                 },
                 series: [{
                     name: 'Searches of African-Americans',
-                    data: [2.5, 3.8]
+                    data: [2.6, 3.9]
                 },
                 {
                     name: 'Searches of people of other races',
-                    data: [3.8, 8.8]
+                    data: [3.9, 8.5]
                 }
                 ]
             });
