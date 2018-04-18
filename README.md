@@ -1,5 +1,2 @@
-# template-graphics-package
-Skeleton template for a basic graphics package.
-See example here: http://data.baltimoresun.com/templates/graphics-package
-Written in html / css
-(Missing social icons and script)
+# Graphics package for Justice Dept report about Baltimore for Baltimore Sun
+Published: http://data.baltimoresun.com/project/justice-report/index.html
